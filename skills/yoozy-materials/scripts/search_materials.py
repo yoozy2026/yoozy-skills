@@ -11,8 +11,9 @@ from urllib.parse import urlencode
 from urllib.request import urlopen
 
 
-# 复用已有公开列表接口，不依赖管理端地址、登录凭据或本地物料快照。
-API_URL = "https://y.yoozyai.com/api/em/materials"
+# 复用 OpenService.SearchEcommerceMaterial 的现有开放搜索入口，返回 MaterialList。
+# 沿用服务端的关键词匹配和分页，不新增接口或依赖本地物料快照。
+API_URL = "https://y.yoozyai.com/api/adm/ecommerce-knowledge-search-6f4a9c2e7b1d8a53"
 
 
 def search_materials(keyword: str, kind: str = "video", page: int = 1, size: int = 10) -> dict:
