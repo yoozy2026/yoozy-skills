@@ -1,4 +1,4 @@
 interface:
-  display_name: "Yoozy 物料经验库"
-  short_description: "按商品、人物和创作目标选择物料经验，查询公开目录并产出可执行的视频方案"
-  default_prompt: "用 $yoozy-materials 帮我选择适合这些图片和商品的带货视频形式。"
+  display_name: "Yoozy 物料库搜索"
+  short_description: "按关键词搜索 Yoozy 在线视频和图文物料，查看摘要、脚本、提示词及真实媒体链接"
+  default_prompt: "用 $yoozy-materials 帮我搜索口播带货的视频物料。"

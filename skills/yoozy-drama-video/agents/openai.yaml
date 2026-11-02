@@ -1,4 +1,0 @@
-interface:
-  display_name: "Yoozy 短剧带货"
-  short_description: "围绕具体矛盾与商品用途，设计 20 秒短剧带货分镜和完整生成方案"
-  default_prompt: "用 $yoozy-drama-video 为这件商品设计一条 20 秒竖屏短剧。"

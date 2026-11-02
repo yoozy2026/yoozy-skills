@@ -1,4 +1,0 @@
-interface:
-  display_name: "Yoozy 真人口播带货"
-  short_description: "结合人物图与商品图，制作真人口播带货策略、分镜与可用生成提示词"
-  default_prompt: "用 $yoozy-talking-head 根据人物图和商品图设计一条 15 秒带货视频。"
